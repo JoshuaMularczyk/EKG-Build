@@ -33,4 +33,4 @@ frequencies to frequencies at about 15 Hz.
 ## Results
 ## User Manual
 
-Access the full user manual [here]()!
+Access the full user manual [here](https://github.com/JoshuaMularczyk/EKG-Build/tree/main/User%20Manual)!
