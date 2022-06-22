@@ -4,7 +4,30 @@ The goal of this project is to use embedded systems design to create a hand-held
 
 ## Objectives
 
-*fill in from initial document given from professor
+#### General
+
+The following general objectives were given:
+
+- Needs a User Interface
+- Required User Interaction
+- Needs Connections (USB)
+- Physical Casing
+
+#### Modes for User Interface
+
+I was tasked with creating the following modes as well:
+
+1. EKG mode. Sample an EKG analog signal and display rate in beats per minute. DAC output will continuously reproduce the analog input that is being sampled. (Sample rate will be fixed at a predetermined and programmed rate for this mode). This is to be the default start-up mode).
+2. Sample the analog input (at a previously set rate) and when a user presses a button and store the preceding XX number of data samples in RAM memory for use by the DAC (refer to this as DAC Memory). XX number of samples will have previously been set. XX can take on values of 128, 256, 512, or 1024. (Default start-up value is to be 256)
+3. Do the same as mode 2 except store XX number of values starting when the user pressesa button.
+4. Set the ADC sample rate (keep track of this rate so that if EKG mode is selected after setting ADC rate and then operation mode becomes something other than EKG mode the previously set ADC rate will be in effect)
+5. Set the number of data points XX in a waveform
+6. With the DAC create an output waveform using data stored in DAC Memory. (Note: the number of data points in one “cycle” of the waveform will be the number of data points sampled using mode 3 or 4). The rate of updating the DAC will be the current rate as selected in Mode 4.
+7. Load a waveform into DAC memory from the asynchronous serial port (via a connection to a Comm port on a PC or USB emulation of a Comm Port). NOTE: actually making the asynchronous port functional in our project is considered a stretch goal.
+
+#### Stretch Goal
+
+There is only16k bytes of memory space for data in the MKL25Z128VLH4 microcontroller that will be used for this project. Thus an external EEPROM memory component, specifically a Microchip 25LC1024-I/SM part, will be used to expand memory. It will be connected to the microcontroller using the Serial Peripheral Interface (SPI) bus.
 
 ## Overview
 
