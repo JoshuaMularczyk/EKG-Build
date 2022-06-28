@@ -47,13 +47,22 @@ battery powered in the future. The handheld device is 2.03 in x
 1.02 in x 6.5 in (LxWxH). The device can operate at low 
 frequencies to frequencies at about 15 Hz.
 
-## Schematic
+## Initial Hardware Design
 
-<img width="879" alt="CompleteSchematic" src="https://user-images.githubusercontent.com/103919092/173730058-b952c228-87ac-44d9-90b6-5e05ef012646.PNG">
+The initial hardware that was used for testing and programming this EKG was a NXP FRDM-KL25Z microcontroller board with a mounted pcb board that was desgined by [Dr. Larry Aamodt]() and assembled by me. This pcb contained five buttons, three LEDs, as well as male and female ports for testing and attaching the ADC, DAC, and other ports. The final piece of hardware used was a LCD display that is mounted ontop of the custom pcb.
 
-## PCB Design
+insert 3 pictures seperate plus a final with all 3 put together
+
 ## Testing
 ## Results
 ## User Manual
 
 Access the full user manual [here](https://github.com/JoshuaMularczyk/EKG-Build/tree/main/User%20Manual)!
+
+## Final Hardware Design
+
+### Schematic
+
+<img width="879" alt="CompleteSchematic" src="https://user-images.githubusercontent.com/103919092/173730058-b952c228-87ac-44d9-90b6-5e05ef012646.PNG">
+
+### PCB Design
