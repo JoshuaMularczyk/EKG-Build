@@ -77,6 +77,8 @@ Access the full user manual [here](https://github.com/JoshuaMularczyk/EKG-Build/
 
 After continuous testing with our NXP FRDM-KL25Z board, we were provided with an instructor designed all in one pcb that would connect to our LCD, external battery, and external memory. This would all fit inside of a plastic casing for the finished product.
 
+<img width="509" alt="InstructorDesignedPCBdisplay" src="https://user-images.githubusercontent.com/103919092/176557972-66c71546-e0ca-41b8-a487-257cc475b770.PNG">
+
 ### Instructor Designed Schematic
 
 <img width="879" alt="CompleteSchematic" src="https://user-images.githubusercontent.com/103919092/173730058-b952c228-87ac-44d9-90b6-5e05ef012646.PNG">
