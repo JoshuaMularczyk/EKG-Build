@@ -49,7 +49,7 @@ frequencies to frequencies at about 15 Hz.
 
 ## Initial Hardware Design
 
-The initial hardware that was used for testing and programming this EKG was a NXP FRDM-KL25Z microcontroller board with a mounted pcb board that was desgined by [Dr. Larry Aamodt]() and assembled by me. This pcb contained five buttons, three LEDs, as well as male and female ports for testing and attaching the ADC, DAC, and other ports. The final piece of hardware used was a LCD display that is mounted ontop of the custom pcb.
+The initial hardware that was used for testing and programming this EKG was a NXP FRDM-KL25Z microcontroller board with a mounted pcb board that was desgined by Dr. Larry Aamodt and assembled by me. This pcb contained five buttons, three LEDs, as well as male and female ports for testing and attaching the ADC, DAC, and other ports. The final piece of hardware used was a LCD display that is mounted ontop of the custom pcb.
 
 insert 3 pictures seperate plus a final with all 3 put together
 
