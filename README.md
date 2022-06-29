@@ -32,7 +32,7 @@ There is only16k bytes of memory space for data in the MKL25Z128VLH4 microcontro
 ## Overview
 
 For this project, the task was to design a hand-held portable instrument 
-that would analyze a periodic analog input signal i.e. an EKG (electrocardiogram). I was tasked with determining the rate of the analog input signal (heart rate) as well as producing an output analog signal, voltage, that could be stored in Microcontroller memory. Over a period of three months, I learned and designed the software for the PIT, Switches, ADC (analog to digital converter), DAC (digital to analog converter), LCD display, and my menu. I assembled the hardware for my NXP FRDM-KL25Z board attachments (circuit board with switches, LEDs, and LCD), and connected them to the NXP Microcontroller. At the end of the project, I assembled the hardware for a complete circuit board including the MKL25Z processor, 25LC128 memory, switches, and LCD display. I have completed about 90% of the project. I have 5 out of the 7 working modes. I have not yet been able to accomplish storing a previously sampled data amount and downloading anything to external memory due to lack of time and I have not been able to communicate with the all-in-one designed circuit board for unknown reasons that still need to be troubleshooted.
+that would analyze a periodic analog input signal i.e. an EKG (electrocardiogram). I was tasked with determining the rate of the analog input signal (heart rate) as well as producing an output analog signal, voltage, that could be stored in Microcontroller memory. Over a period of three months, I learned and designed the software for the PIT, Switches, ADC (analog to digital converter), DAC (digital to analog converter), LCD display, and my menu. I assembled the hardware for my NXP FRDM-KL25Z board attachments (circuit board with switches, LEDs, and LCD), and connected them to the NXP Microcontroller. At the end of the project, I assembled the hardware for a complete circuit board including the MKL25Z processor, 25LC128 memory, switches, and LCD display. I have completed about 90% of the project. I have 5 out of the 7 working modes. These include: EKG Mode, storing of a ADC sample, selecting a sample rate, selecting the amount of data points taken, and outputting the waveform from the DAC. These are explained and can be view more in debth in the [User Manual]() and the code can be viewed [here]()! I have not yet been able to accomplish storing a previously sampled data amount and downloading anything to external memory due to lack of time and I have not been able to communicate with the all-in-one designed circuit board for unknown reasons that still need to be troubleshooted.
 
 ## Theory
 
@@ -54,6 +54,8 @@ The initial hardware that was used for testing and programming this EKG was a NX
 insert 3 pictures seperate plus a final with all 3 put together
 
 ## Testing
+
+For testing out my modes I used the LCD display screen as well as an oscillosope and a wave generator to create a wave similar to a heartbeat. My LCD was able to display the given heartbeat in BPM.
 ## Results
 ## User Manual
 
