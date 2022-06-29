@@ -32,7 +32,7 @@ There is only16k bytes of memory space for data in the MKL25Z128VLH4 microcontro
 ## Overview
 
 For this project, the task was to design a hand-held portable instrument 
-that would analyze a periodic analog input signal i.e. an EKG (electrocardiogram). I was tasked with determining the rate of the analog input signal (heart rate) as well as producing an output analog signal, voltage, that could be stored in Microcontroller memory. Over a period of three months, I learned and designed the software for the PIT, Switches, ADC (analog to digital converter), DAC (digital to analog converter), LCD display, and my menu. I assembled the hardware for my NXP FRDM-KL25Z board attachments (circuit board with switches, LEDs, and LCD), and connected them to the NXP Microcontroller. At the end of the project, I assembled the hardware for a complete circuit board including the MKL25Z processor, 25LC128 memory, switches, and LCD display. I have completed about 90% of the project. I have 5 out of the 7 working modes. These include: EKG Mode, storing of a ADC sample, selecting a sample rate, selecting the amount of data points taken, and outputting the waveform from the DAC. These are explained and can be view more in debth in the [User Manual](https://github.com/JoshuaMularczyk/EKG-Build/tree/main/User%20Manual) and the code can be viewed [here](https://github.com/JoshuaMularczyk/EKG-Build/tree/main/Project%20Files%20(C%20code))! I have not yet been able to accomplish storing a previously sampled data amount and downloading anything to external memory due to lack of time and I have not been able to communicate with the all-in-one designed circuit board for unknown reasons that still need to be troubleshooted.
+that would analyze a periodic analog input signal i.e. an EKG (electrocardiogram). I was tasked with determining the rate of the analog input signal (heart rate) as well as producing an output analog signal, voltage, that could be stored in Microcontroller memory. Over a period of three months, I designed the software for the PIT, Switches, ADC (analog to digital converter), DAC (digital to analog converter), LCD display, and my menu using Keil uVision software. I assembled the hardware for my NXP FRDM-KL25Z board attachments (circuit board with switches, LEDs, and LCD), and connected them to the NXP Microcontroller. At the end of the project, I assembled the hardware for a complete circuit board including the MKL25Z processor, 25LC128 memory, switches, and LCD display. I have completed about 90% of the project.
 
 ## Theory
 
@@ -53,19 +53,36 @@ The initial hardware that was used for testing and programming this EKG was a NX
 
 insert 3 pictures seperate plus a final with all 3 put together
 
+## NXP FRDM-KL25Z board
+
+<img width="373" alt="FRDM-KL25Z" src="https://user-images.githubusercontent.com/103919092/176556958-82052cea-de33-4fed-a2d3-a3518d35e5eb.PNG">
+<img width="519" alt="FRDMBoardSch1" src="https://user-images.githubusercontent.com/103919092/176557046-7d21a7d6-f75a-409b-b3ca-8b36304d9753.PNG">
+
+
+The schematics for this board can be found [here]().
+
 ## Testing
 
-For testing out my modes I used the LCD display screen as well as an oscillosope and a wave generator to create a wave similar to a heartbeat. My LCD was able to display the given heartbeat in BPM.
+For testing out my modes I used the LCD display screen as well as an oscillosope and a wave generator to create a wave similar to a heartbeat. My LCD was able to display the given heartbeat in BPM. I was able to change the frequency of the wave generator and my LCD would display the new corrected BPM almost immediately. The rest of the modes that I tested can be viewed in the user manual. 
 
 ## Results
+
+ I have completed about 90% of the project. I have 5 out of the 7 working modes. These include: EKG Mode, storing of a ADC sample, selecting a sample rate, selecting the amount of data points taken, and outputting the waveform from the DAC. These are explained and can be view more in debth in the [User Manual](https://github.com/JoshuaMularczyk/EKG-Build/tree/main/User%20Manual) and the code can be viewed [here](https://github.com/JoshuaMularczyk/EKG-Build/tree/main/Project%20Files%20(C%20code))! I have not yet been able to accomplish storing a previously sampled data amount and downloading anything to external memory due to lack of time and I have not been able to communicate with the all-in-one designed circuit board for unknown reasons that still need to be troubleshooted.
+ 
 ## User Manual
 
 Access the full user manual [here](https://github.com/JoshuaMularczyk/EKG-Build/tree/main/User%20Manual)!
 
 ## Final Hardware Design
 
-### Schematic
+After continuous testing with our NXP FRDM-KL25Z board, we were provided with an instructor designed all in one pcb that would connect to our LCD, external battery, and external memory. This would all fit inside of a plastic casing for the finished product.
+
+### Instructor Designed Schematic
 
 <img width="879" alt="CompleteSchematic" src="https://user-images.githubusercontent.com/103919092/173730058-b952c228-87ac-44d9-90b6-5e05ef012646.PNG">
 
-### PCB Design
+### Instructor Designed PCB
+
+### Instructor Designed Casing
+
+<img width="491" alt="Instructor Designed Casing" src="https://user-images.githubusercontent.com/103919092/176556824-f0deadb3-154c-4c6b-87f8-d3eb8f401ca9.PNG">
