@@ -68,10 +68,6 @@ For testing out my modes I used the LCD display screen as well as an oscillosope
 ## Results
 
  I have completed about 90% of the project. I have 5 out of the 7 working modes. These include: EKG Mode, storing of a ADC sample, selecting a sample rate, selecting the amount of data points taken, and outputting the waveform from the DAC. These are explained and can be view more in debth in the [User Manual](https://github.com/JoshuaMularczyk/EKG-Build/blob/main/User%20Manuals/EKG%20User%20Manual.pdf) and the code can be viewed [here](https://github.com/JoshuaMularczyk/EKG-Build/tree/main/Project%20Files%20(C%20code))! I have not yet been able to accomplish storing a previously sampled data amount and downloading anything to external memory due to lack of time and I have not been able to communicate with the all-in-one designed circuit board for unknown reasons that still need to be troubleshooted.
- 
-## User Manual
-
-Access the full user manual [here](https://github.com/JoshuaMularczyk/EKG-Build/blob/main/User%20Manuals/EKG%20User%20Manual.pdf)!
 
 ## Final Hardware Design
 
@@ -86,3 +82,7 @@ After continuous testing with our NXP FRDM-KL25Z board, we were provided with an
 ### Instructor Designed Casing
 
 <img width="491" alt="Instructor Designed Casing" src="https://user-images.githubusercontent.com/103919092/176556824-f0deadb3-154c-4c6b-87f8-d3eb8f401ca9.PNG">
+
+## User Manual
+
+Access the full user manual [here](https://github.com/JoshuaMularczyk/EKG-Build/blob/main/User%20Manuals/EKG%20User%20Manual.pdf)!
