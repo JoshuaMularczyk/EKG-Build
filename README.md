@@ -59,7 +59,7 @@ insert 3 pictures seperate plus a final with all 3 put together
 <img width="519" alt="FRDMBoardSch1" src="https://user-images.githubusercontent.com/103919092/176557046-7d21a7d6-f75a-409b-b3ca-8b36304d9753.PNG">
 
 
-The schematics for this board can be found [here]().
+The schematics for this board can be found [here](https://github.com/JoshuaMularczyk/EKG-Build/blob/main/Schematics/FRDM-KL25Z_SCH_REV_E.pdf).
 
 ## Testing
 
@@ -80,8 +80,6 @@ After continuous testing with our NXP FRDM-KL25Z board, we were provided with an
 ### Instructor Designed Schematic
 
 <img width="879" alt="CompleteSchematic" src="https://user-images.githubusercontent.com/103919092/173730058-b952c228-87ac-44d9-90b6-5e05ef012646.PNG">
-
-### Instructor Designed PCB
 
 ### Instructor Designed Casing
 
