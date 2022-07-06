@@ -51,9 +51,9 @@ frequencies to frequencies at about 15 Hz.
 
 The initial hardware that was used for testing and programming this EKG was a NXP FRDM-KL25Z microcontroller board with a mounted pcb board that was desgined by Dr. Larry Aamodt and assembled by me. This pcb contained five buttons, three LEDs, as well as male and female ports for testing and attaching the ADC, DAC, and other ports. The final piece of hardware used was a LCD display that is mounted ontop of the custom pcb.
 
-<img width="573" alt="FRDM-KL25Z" src="https://user-images.githubusercontent.com/103919092/176564569-9ea7ebd1-ce78-49f6-9832-5d2db178a793.jpg">
+<img width="503" alt="FRDM-KL25Z" src="https://user-images.githubusercontent.com/103919092/176564569-9ea7ebd1-ce78-49f6-9832-5d2db178a793.jpg">
 
-<img width="573" alt="FRDM-KL25Z" src="https://user-images.githubusercontent.com/103919092/176564578-eb379be2-c52d-4919-a28d-7db551855380.jpg">
+<img width="503" alt="FRDM-KL25Z" src="https://user-images.githubusercontent.com/103919092/176564578-eb379be2-c52d-4919-a28d-7db551855380.jpg">
 
 
 ## NXP FRDM-KL25Z board
@@ -80,7 +80,7 @@ After continuous testing with our NXP FRDM-KL25Z board, we were provided with an
 
 ### Instructor Designed Schematic
 
-<img width="879" alt="CompleteSchematic" src="https://user-images.githubusercontent.com/103919092/173730058-b952c228-87ac-44d9-90b6-5e05ef012646.PNG">
+<img width="679" alt="CompleteSchematic" src="https://user-images.githubusercontent.com/103919092/173730058-b952c228-87ac-44d9-90b6-5e05ef012646.PNG">
 
 ### Instructor Designed Casing
 
