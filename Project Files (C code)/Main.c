@@ -1,19 +1,19 @@
 // *************************************************************************//
-// Program for EKG utilization													                    //
+// Program for EKG utilization							                    //
 //                                                                          //
-// Filename: Main.c																												  //
-// Author: Joshua Mularczyk																								  //
-// Version: 03/2/22 written 																							  //
-// Processor: NXP MKL25Z4 																								  //
+// Filename: Main.c										      			    //
+// Author: Joshua Mularczyk													//
+// Version: 03/2/22 written 												//
+// Processor: NXP MKL25Z4 													//
 // Compiler: Keil uVision5	                                                //
-// Library: CMSIS core and device startup	                                  //
+// Library: CMSIS core and device startup	                                //
 // also needs lcd_lib_4bit_20b.c                                            //
-//						debug_signals.c																								//
-//						switches.c																										//
-//						DAC.c																													//
-//						Pit.c																													//
-//						ADC.c																													//
-//            EKG_Functions.c
+//						debug_signals.c										//
+//						switches.c											//
+//						DAC.c												//
+//						Pit.c												//
+//						ADC.c												//
+//            EKG_Functions.c											    //
 // Hardware: NXP Freedom board connected to a 16x2 LCD display              //
 // Software note: This program is a "bare metal" application since it       //
 // doesn't use an operating system.                                         //
